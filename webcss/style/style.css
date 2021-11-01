@@ -1,0 +1,132 @@
+*{
+     padding:0px;
+     margin:0px;
+}
+
+#site-container{
+     width:960px;
+     height:auto;
+     margin:20px auto;
+     background:#FFE4E1;//menambahkan background
+     padding-top:5px;
+     padding-bottom:5px;
+}
+
+#header{
+     width:900px; /* mengurangi besar width oleh padding-left */
+     height:130px; /* mengurangi besar height oleh padding-top */
+     background:url(../image/header_1.jpg);
+     margin:5px auto;
+     padding-top:150px; /* menambahkan padding-top & left u/ mengatur */
+     padding-left:50px; /*posisi textjudul*/
+}
+
+#menu-content{
+     width:950px;
+     height:auto;
+     margin:5 auto;
+}
+
+#menu{
+     float:left;
+     width:300px;
+     height:auto;
+}
+
+#content{
+    width:610px;
+    height:auto;
+    /*border:1px solid #000;*/
+    float:right;
+    background:#87CEEB;
+    padding:15px;
+}
+
+#footer{
+     width:950px;
+     height:40px;
+     margin-top:5px;
+     margin-bottom:0px;
+     margin-right:auto;
+     margin-left:auto;
+     background:#6495ED;
+     text-align:center;
+     padding-top:30px;
+     font-weight:bold;
+     color:#fff;
+}
+
+.floating{
+     clear:both;
+     height:0px;
+     line-height:0px;
+}
+
+#header a{
+     font:28pt 'Curlz MT';
+     text-decoration:none;
+     color:#666633;
+}
+
+#header p{
+     font:20pt 'Gabriola';
+     color:#669900;
+}
+
+.judul_1{
+     display:block;
+     height:40px;
+     background:#6495ED;
+     font:18pt "Kristen ITC";
+     color:#fff;
+     text-align:center;
+     border:1px solid blue;
+}
+
+#menu ul{
+     list-style:none;
+}
+
+#menu li a{
+     display:block;
+     height:30px;
+     background:#87CEEB;
+     font:14pt "Kristen ITC";
+     color:#000;
+     text-decoration:none;
+     border-bottom:1px solid blue;
+     border-left:1px solid blue;
+     border-right:1px solid blue;
+     padding-left:20px;
+}
+
+#menu li a:hover{
+     background:#F08080;
+     color:#fff;
+}
+
+.judul_2{
+     display:block;
+     border-bottom:2px solid #000;
+     font:26pt "Kristen ITC";
+     color:#fff;
+     padding-bottom:10px;
+}
+
+.img{
+     width:250px;
+     height:200px;
+     border:5px solid #fff;
+     margin-top:20px;
+     margin-right:20px;
+     float:left;
+}
+
+#content p{
+     margin-top:20px;
+}
+
+body{
+     background:#FFB6C1;
+     font:10pt californian fb;
+}
